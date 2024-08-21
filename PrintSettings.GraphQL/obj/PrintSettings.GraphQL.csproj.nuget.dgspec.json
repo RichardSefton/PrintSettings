@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.GraphQL\\PrintSettings.GraphQL.csproj": {}
+  },
+  "projects": {
+    "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Data\\PrintSettings.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Data\\PrintSettings.Data.csproj",
+        "projectName": "PrintSettings.Data",
+        "projectPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Data\\PrintSettings.Data.csproj",
+        "packagesPath": "C:\\Users\\Richard.Sefton\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Richard.Sefton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj": {
+                "projectPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.GraphQL\\PrintSettings.GraphQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.GraphQL\\PrintSettings.GraphQL.csproj",
+        "projectName": "PrintSettings.GraphQL",
+        "projectPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.GraphQL\\PrintSettings.GraphQL.csproj",
+        "packagesPath": "C:\\Users\\Richard.Sefton\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.GraphQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Richard.Sefton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Data\\PrintSettings.Data.csproj": {
+                "projectPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Data\\PrintSettings.Data.csproj"
+              },
+              "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj": {
+                "projectPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
+              "target": "Package",
+              "version": "[7.7.1, )"
+            },
+            "GraphQL.Server.Ui.Playground": {
+              "target": "Package",
+              "version": "[7.7.1, )"
+            },
+            "GraphQL.SystemTextJson": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj",
+        "projectName": "PrintSettings.Models",
+        "projectPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\PrintSettings.Models.csproj",
+        "packagesPath": "C:\\Users\\Richard.Sefton\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\learning\\csharp\\PrintSettings\\PrintSettings.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Richard.Sefton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Bcrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

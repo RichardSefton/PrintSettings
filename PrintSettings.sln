@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSettings.Data", "PrintSettings.Data\PrintSettings.Data.csproj", "{0FC46B23-4D44-414C-9F8C-1A56708B0811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSettings.GraphQL", "PrintSettings.GraphQL\PrintSettings.GraphQL.csproj", "{63978B6F-F2BC-4BF2-8F1B-E495635584F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSettings.Models", "PrintSettings.Models\PrintSettings.Models.csproj", "{CAD02E60-5766-4406-AD55-E8AE6646149A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSettings.Tests", "PrintSettings.Tests\PrintSettings.Tests.csproj", "{566FFBFB-6A38-42DF-BE2A-2CE1C89D027F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSettings.Webapp", "PrintSettings.Webapp\PrintSettings.Webapp.csproj", "{3666202C-29F9-4373-8D66-91DCA6B82B44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC46B23-4D44-414C-9F8C-1A56708B0811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC46B23-4D44-414C-9F8C-1A56708B0811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC46B23-4D44-414C-9F8C-1A56708B0811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC46B23-4D44-414C-9F8C-1A56708B0811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63978B6F-F2BC-4BF2-8F1B-E495635584F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63978B6F-F2BC-4BF2-8F1B-E495635584F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63978B6F-F2BC-4BF2-8F1B-E495635584F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63978B6F-F2BC-4BF2-8F1B-E495635584F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD02E60-5766-4406-AD55-E8AE6646149A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD02E60-5766-4406-AD55-E8AE6646149A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD02E60-5766-4406-AD55-E8AE6646149A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD02E60-5766-4406-AD55-E8AE6646149A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566FFBFB-6A38-42DF-BE2A-2CE1C89D027F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566FFBFB-6A38-42DF-BE2A-2CE1C89D027F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566FFBFB-6A38-42DF-BE2A-2CE1C89D027F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566FFBFB-6A38-42DF-BE2A-2CE1C89D027F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3666202C-29F9-4373-8D66-91DCA6B82B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3666202C-29F9-4373-8D66-91DCA6B82B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3666202C-29F9-4373-8D66-91DCA6B82B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3666202C-29F9-4373-8D66-91DCA6B82B44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

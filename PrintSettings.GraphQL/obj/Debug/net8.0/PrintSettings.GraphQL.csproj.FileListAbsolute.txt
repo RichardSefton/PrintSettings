@@ -1,0 +1,17 @@
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.GraphQL.deps.json
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.GraphQL.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.GraphQL.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.Data.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.Models.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.Data.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\bin\Debug\net8.0\PrintSettings.Models.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.csproj.AssemblyReference.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.AssemblyInfoInputs.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.AssemblyInfo.cs
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.csproj.CoreCompileInputs.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSet.D6A9EF32.Up2Date
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\refint\PrintSettings.GraphQL.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\PrintSettings.GraphQL.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.GraphQL\obj\Debug\net8.0\ref\PrintSettings.GraphQL.dll

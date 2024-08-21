@@ -1,0 +1,15 @@
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\bin\Debug\net8.0\PrintSettings.Data.deps.json
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\bin\Debug\net8.0\PrintSettings.Data.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\bin\Debug\net8.0\PrintSettings.Data.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\bin\Debug\net8.0\PrintSettings.Models.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\bin\Debug\net8.0\PrintSettings.Models.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.csproj.AssemblyReference.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.AssemblyInfoInputs.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.AssemblyInfo.cs
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.csproj.CoreCompileInputs.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSet.2726FCE2.Up2Date
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\refint\PrintSettings.Data.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\ref\PrintSettings.Data.dll

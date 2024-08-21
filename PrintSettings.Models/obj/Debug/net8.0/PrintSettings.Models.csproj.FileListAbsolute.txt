@@ -1,0 +1,12 @@
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\bin\Debug\net8.0\PrintSettings.Models.deps.json
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\bin\Debug\net8.0\PrintSettings.Models.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\bin\Debug\net8.0\PrintSettings.Models.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.csproj.AssemblyReference.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.AssemblyInfoInputs.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.AssemblyInfo.cs
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.csproj.CoreCompileInputs.cache
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\refint\PrintSettings.Models.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.pdb
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\ref\PrintSettings.Models.dll
