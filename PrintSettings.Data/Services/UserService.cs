@@ -22,8 +22,19 @@ public class UserService {
         );
     }
 
-    public async Task<User> GetAsync(string userId) {
-        return await _userCollection.Find(user => user.Id == userId).FirstOrDefaultAsync();
+    public enum UserSearchType {
+        Id,
+        Email
+    }
+
+    public async Task<User?> GetAsync(string userId, UserSearchType searchType) {
+        if (searchType == UserSearchType.Email)
+            return await _userCollection.Find(user => user.Email == userId).FirstOrDefaultAsync();
+        
+        if (searchType == UserSearchType.Id)
+            return await _userCollection.Find(user => user.Id == userId).FirstOrDefaultAsync();
+    
+        return null;
     }
 
     public async Task<User> CreateAsync(User newUser) {
@@ -62,6 +73,21 @@ public class UserService {
             return result.DeletedCount > 0;
         } catch {
             return false;
+        }
+    }
+
+    public Task<User?> LoginAsync(string email, string password) {
+        try {
+            User matchedUser = _userCollection.Find(user => user.Email == email).FirstOrDefault();
+            if (matchedUser == null)
+                return Task.FromResult<User?>(null);
+
+            if (User.VerifyPassword(matchedUser?.Password ?? "", password))
+                return Task.FromResult<User?>(matchedUser);
+            
+            return Task.FromResult<User?>(null);
+        } catch(Exception ex) {
+            throw new Exception(ex.Message);
         }
     }
 }

@@ -15,7 +15,7 @@ public class UserModelTests {
 
         Assert.Equal("1234", user.Id);
         Assert.Equal("test@test.com", user.Email);
-        Assert.NotNull(user.Password);
+        Assert.Equal("SomePass4NAV!", user.Password);
     }
 
     [Fact]
@@ -23,7 +23,7 @@ public class UserModelTests {
         User user = new("test@test.com", "SomePass4NAV!");
 
         Assert.Equal("test@test.com", user.Email);
-        Assert.NotNull(user.Password);
+        Assert.Equal("SomePass4NAV!", user.Password);
     }
 
     [Fact]
@@ -45,5 +45,16 @@ public class UserModelTests {
         string pswd = "SomePass4NAV!";
         string hashed = User.HashPassword(pswd);
         Assert.True(User.VerifyPassword(hashed, pswd));
+    }
+
+    [Fact]
+    public void UserModelSetPasswordHashesPassword() {
+        string pswd = "SomePass4NAV!";
+        User user = new("test@test.com");
+        user.SetPassword(pswd);
+
+        Assert.NotNull(user.Password);
+        Assert.True(user.Password.Length > 0);
+        Assert.True(User.VerifyPassword(user.Password, pswd));
     }
 }

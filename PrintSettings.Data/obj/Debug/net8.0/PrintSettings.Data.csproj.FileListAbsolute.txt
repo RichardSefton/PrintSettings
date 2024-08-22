@@ -13,3 +13,4 @@ C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintS
 C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\refint\PrintSettings.Data.dll
 C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.pdb
 C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\ref\PrintSettings.Data.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Data\obj\Debug\net8.0\PrintSettings.Data.sourcelink.json

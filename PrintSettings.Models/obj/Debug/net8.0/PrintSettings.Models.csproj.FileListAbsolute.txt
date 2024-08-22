@@ -10,3 +10,4 @@ C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\Prin
 C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\refint\PrintSettings.Models.dll
 C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.pdb
 C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\ref\PrintSettings.Models.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Models\obj\Debug\net8.0\PrintSettings.Models.sourcelink.json

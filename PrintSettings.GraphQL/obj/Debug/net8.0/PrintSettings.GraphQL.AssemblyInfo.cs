@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrintSettings.GraphQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af4559933a77a46e403f3e2c487ca98bf5d11683")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrintSettings.GraphQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrintSettings.GraphQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

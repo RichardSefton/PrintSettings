@@ -1,6 +1,5 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using BCrypt.Net;
 
 namespace PrintSettings.Models;
 
@@ -13,10 +12,10 @@ public class User {
 
     public string? Password { get; set; }
 
-    public User(string id, string email, string password) {
+    public User(string? id, string email, string? password) {
         Id = id;
         Email = email;
-        Password = HashPassword(password);
+        Password = password;
     }
 
     public User(string email, string password) {
@@ -29,6 +28,10 @@ public class User {
         Id = "";
         Email = email;
         Password = null;
+    }
+
+    public void SetPassword(string password) {
+        Password = HashPassword(password);
     }
 
     public static string HashPassword(string password) {

@@ -41,7 +41,7 @@ builder.Services.AddAuthentication(options => {
             OnTokenValidated = async context => {
                 var userService = context.HttpContext.RequestServices.GetRequiredService<UserService>();
                 var userClaim = context?.Principal?.Claims.FirstOrDefault(c => c.Type == "UserId");
-                User? user = await userService.GetAsync(userClaim?.Value ?? "");
+                User? user = await userService.GetAsync(userClaim?.Value ?? "", UserService.UserSearchType.Id);
                 if (user == null) {
                     context?.Fail("Unauthorized");
                 }
@@ -70,7 +70,7 @@ builder.Services.AddCors(options => {
     );
 });
 
-// builder.Services.AddPrintSettingsServices();
+builder.Services.AddPrintSettingsServices();
 
 var app = builder.Build();
 

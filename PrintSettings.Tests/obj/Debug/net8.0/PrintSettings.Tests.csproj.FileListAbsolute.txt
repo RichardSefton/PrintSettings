@@ -124,3 +124,5 @@ C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\obj\Debug\net8.0\Print
 C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\obj\Debug\net8.0\PrintSettings.Tests.genruntimeconfig.cache
 C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\obj\Debug\net8.0\ref\PrintSettings.Tests.dll
 C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\obj\Debug\net8.0\PrintSettings.Tests.sourcelink.json
