@@ -126,3 +126,13 @@ C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\obj\Debug\net8.0\ref\P
 C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\obj\Debug\net8.0\PrintSettings.Tests.sourcelink.json
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.TestHost.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\Mongo2Go.dll
+C:\code\learning\csharp\PrintSettings\PrintSettings.Tests\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

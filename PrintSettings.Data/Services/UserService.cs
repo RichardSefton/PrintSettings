@@ -28,13 +28,17 @@ public class UserService {
     }
 
     public async Task<User?> GetAsync(string userId, UserSearchType searchType) {
-        if (searchType == UserSearchType.Email)
-            return await _userCollection.Find(user => user.Email == userId).FirstOrDefaultAsync();
+        try {
+            if (searchType == UserSearchType.Email)
+                return await _userCollection.Find(user => user.Email == userId).FirstOrDefaultAsync();
+            
+            if (searchType == UserSearchType.Id)
+                return await _userCollection.Find(user => user.Id == userId).FirstOrDefaultAsync();
         
-        if (searchType == UserSearchType.Id)
-            return await _userCollection.Find(user => user.Id == userId).FirstOrDefaultAsync();
-    
-        return null;
+            return null;
+        } catch {
+            return null;
+        }
     }
 
     public async Task<User> CreateAsync(User newUser) {
@@ -49,6 +53,10 @@ public class UserService {
         if (string.IsNullOrEmpty(newUser.Password))
             throw new Exception("Password is required");
 
+        var matchedUser = await _userCollection.Find(user => user.Email == newUser.Email).FirstOrDefaultAsync();
+        if (matchedUser != null)
+            throw new Exception("User already exists");
+
         User user = new(newUser.Email, newUser.Password);
 
         await _userCollection.InsertOneAsync(user);
@@ -57,10 +65,9 @@ public class UserService {
 
     public async Task<bool> UpdateAsync(User updatedUser) {
         try {
-            User user = new(updatedUser.Email) {
-                Id = updatedUser.Id
-            };
-            var update = await _userCollection.ReplaceOneAsync(user => user.Id == updatedUser.Id, user);
+            if (string.IsNullOrEmpty(updatedUser.Id))
+                return false;
+            var update = await _userCollection.ReplaceOneAsync(user => user.Id == updatedUser.Id, updatedUser);
             return update.ModifiedCount > 0;
         } catch {
             return false;

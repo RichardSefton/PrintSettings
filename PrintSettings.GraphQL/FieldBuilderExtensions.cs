@@ -1,8 +1,13 @@
 using System.Reflection;
+using System.Text.Json;
 using GraphQL;
 using GraphQL.Builders;
 using GraphQL.Resolvers;
 using Microsoft.AspNetCore.Http;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using PrintSettings.Data.Services;
+using PrintSettings.Models;
 
 namespace PrintSettings.GraphQL;
 
@@ -42,6 +47,33 @@ public static class FieldBuilderExtensions {
 
             if (!(httpContext?.User?.Identity?.IsAuthenticated ?? false)) {
                 context?.Errors.Add(new ExecutionError("Not Authenticated"));
+                return default;
+            }
+
+            //Get the user id from the context Parent
+            string? userId = context?.Parent?.Arguments?["id"].Value?.ToString();
+            string? email = context?.Parent?.Arguments?["email"].Value?.ToString();
+            if (string.IsNullOrEmpty(userId) && string.IsNullOrEmpty(email)) {
+                context?.Errors.Add(new ExecutionError("Not Authenticated"));
+                return default;
+            }
+
+            string authenticatedUserId = httpContext.User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value ?? "";
+
+            User? authenticatedUser = null;
+            if (userContext?["UserService"] is not UserService userService) {
+                context?.Errors.Add(new ExecutionError("Unable to verify user"));
+                return default;
+            }
+
+            authenticatedUser = await userService.GetAsync(authenticatedUserId, UserService.UserSearchType.Id);
+            if (authenticatedUser == null) {
+                context?.Errors.Add(new ExecutionError("Unable to verify user"));
+                return default;
+            }
+
+            if (userId != authenticatedUser.Id && email != authenticatedUser.Email) {
+                context?.Errors.Add(new ExecutionError("Not Authorized"));
                 return default;
             }
 

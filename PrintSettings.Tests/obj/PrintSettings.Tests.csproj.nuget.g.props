@@ -24,5 +24,6 @@
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Richard.Sefton\.nuget\packages\awssdk.core\3.7.100.14</PkgAWSSDK_Core>
     <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\Richard.Sefton\.nuget\packages\awssdk.securitytoken\3.7.100.14</PkgAWSSDK_SecurityToken>
     <PkgGraphQL_Analyzers Condition=" '$(PkgGraphQL_Analyzers)' == '' ">C:\Users\Richard.Sefton\.nuget\packages\graphql.analyzers\7.8.0</PkgGraphQL_Analyzers>
+    <PkgMongo2Go Condition=" '$(PkgMongo2Go)' == '' ">C:\Users\Richard.Sefton\.nuget\packages\mongo2go\3.1.3</PkgMongo2Go>
   </PropertyGroup>
 </Project>

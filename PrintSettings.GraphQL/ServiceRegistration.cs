@@ -20,6 +20,8 @@ public static class ServiceRegistration {
         services.AddScoped<AuthMutation>();
         services.AddScoped<RootMutation>();
 
+        services.AddScoped<ISchema, RootSchema>();
+
         var graphQLTypes= Assembly.GetExecutingAssembly()
             .GetTypes()
             .Where(x => !x.IsAbstract && (
@@ -36,7 +38,7 @@ public static class ServiceRegistration {
             .AddAuthorizationRule()
             .ConfigureExecutionOptions(options => {
                 if (options is null) return;
-                if (options.UserContext is null) {
+                if (options.UserContext != null) {
                     var httpContext = options?.RequestServices?.GetRequiredService<IHttpContextAccessor>();
                     var userService = options?.RequestServices?.GetRequiredService<UserService>();
                     
